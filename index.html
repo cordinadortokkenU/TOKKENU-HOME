@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+  <link rel="icon" type="image/x-icon" href="icono.ico">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TokkenU</title>
+
+
+</head>
+
+<body>
+
+  <!-- MENU PRINCIPAL -->
+  <div class="header-wrap">
+    <div class="page">
+      <div class="header">
+        <div class="logo-bg"></div>
+        <a class="logo" href="#">
+          <img src="logo tokkenu.png" alt="TokenU">
+        </a>
+        <nav class="navbar">
+          <a href="#">Inicio</a>
+          <a href="#">Cursos</a>
+          <a href="#">Empresas</a>
+        </nav>
+        <div style="display:flex; align-items:center; gap:10px; position:relative;">
+          <button class="btn-ingresar">Ingresar</button>
+          <button class="hamb" id="hamb" aria-label="Menú">≡</button>
+          <div class="mobile-modal-bg" id="modalBg"></div>
+          <div class="mobile-panel" id="mPanel" aria-hidden="true">
+            <a href="#">Inicio</a>
+            <a href="#">Cursos</a>
+            <a href="#">Empresas</a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- CARUCEL -->
+  <div class="page">
+    <section class="hero">
+      <div class="carousel" id="car">
+        <div class="carousel-track" id="track">
+          <div class="carousel-slide"><img src="KAMILA..png" alt=""></div>
+          <div class="carousel-slide"><img
+              src="https://www.allthewonders.com/wp-content/uploads/2017/01/1200px-x-360px-%E2%80%93-Banner-Image-5.png"
+              alt=""></div>
+          <div class="carousel-slide"><img
+              src="https://www.allthewonders.com/wp-content/uploads/2016/12/1200px-x-360px-%E2%80%93-Banner-Image-2.png"
+              alt=""></div>
+          <!-- clone para loop suave -->
+          <div class="carousel-slide"><img src="KAMILA..png" alt=""></div>
+        </div>
+        <div class="carousel-dots" id="dots"></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ICONOS -->
+  <div class="page section">
+    <div class="grid-icons">
+      <div class="iconCard">
+        <img src="Mesa de trabajo 3.svg" alt="Cursos activos" class="icon-img">
+        <b>Cursos activos</b>
+      </div>
+      <div class="iconCard">
+        <img src="Mesa de trabajo 4.svg" alt="Reconocimientos" class="icon-img">
+        <b>Reconocimientos</b>
+      </div>
+      <div class="iconCard">
+        <img src="Mesa de trabajo 5.svg" alt="Diplomas" class="icon-img">
+        <b>Diplomas</b>
+      </div>
+      <div class="iconCard">
+        <img src="Mesa de trabajo 6.svg" alt="Noticias" class="icon-img">
+        <b>Noticias</b>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOKKENU -->
+  <div class="page section">
+    <div class="split-2">
+      <article class="card">
+        <h2>¿QUE ES TOKKENU?</h2>
+        <p>
+          TokkenU<sup>®</sup> es un campus digital abierto y dinámico que funciona como un hub de conocimiento. Busca
+          impulsar el desarrollo personal y profesional a través de cursos y recursos que fortalecen lo que sabemos,
+          cuestionan lo que creemos y abren nuevas perspectivas.<br><br>
+          La “U” simboliza unidad, crecimiento y cercanía, representando un aprendizaje sin límites ni estructuras
+          rígidas.<br><br>
+          Nace de Tokken Solutions Company S.A.S. con la visión de que aprender es la clave para evolucionar y abrir
+          nuevas rutas de crecimiento.
+        </p>
+        <div style="text-align:center;">
+          <a class="sabermas" href="#">SABER MAS...</a>
+        </div>
+      </article>
+
+      <aside class="poster">
+        <figure class="poster-figure">
+          <img src="Edificio TokkenU 1.png" alt="Afiche">
+        
+        </figure>
+      </aside>
+    </div>
+  </div>
+
+  <!-- INFORMACIOPN 1 -->
+  <div class="page section">
+    <div class="split-2b">
+      <article class="card1">
+        <h3 class="info1-titulo">
+          La marca TokkenU<sup>®</sup> en <br>cada carnet
+        </h3>
+        <p class="info1-desc">
+          La imagen muestra cómo TokkenU<sup>®</sup> aplica su identidad visual a un elemento cotidiano: los carnets de identificación. Diseñados para mantener la unidad visual de la marca, cada carnet incluye:
+        </p>
+        <ul class="info1-lista">
+          <li>El logo de TokkenU<sup>®</sup>.</li>
+          <li>Una fotografía del portador.</li>
+          <li>El nombre y cargo ("Estudiante").</li>
+          <li>El número de documento de identidad.</li>
+        </ul>
+        <p class="info1-desc">
+          Esta estandarización de diseño y contenido proyecta una imagen de profesionalismo y coherencia, reforzando la identidad de la marca en cada detalle.
+        </p>
+      </article>
+      <div class="info1-img-wrap">
+        <img src="Carnet estudiante.png" alt="Carnets TokkenU">
+      </div>
+    </div>
+  </div>
+
+  <!-- INFORMACION 2 -->
+  <div class="page section">
+    <div class="split-2c">
+      <div class="info2-img-wrap">
+        <img src="Edificio TokkenU 2.png" alt="Módulo de inducción">
+      </div>
+      <article class="card2 info2-card">
+        <div class="info2-label">PRÓXIMAMENTE</div>
+        <h2 class="info2-title">MODULO DE<br>INDUCCIÓN</h2>
+        <p class="info2-desc">Disponible pronto en<br>la plataforma</p>
+      </article>
+    </div>
+  </div>
+
+
+  <!-- ====== FOOTER ====== -->
+  <div class="page">
+    <footer class="footer">
+      <div class="inner">
+        <div class="footer-top">
+          <div class="socials">
+            <div class="wrapper">
+              <a href="https://facebook.com" target="_blank" class="icon Facebook">
+                <div class="tooltip">Facebook</div>
+                <span><i class="fab fa-facebook-f"></i></span>
+              </a>
+              <a href="https://instagram.com" target="_blank" class="icon instagram">
+                <div class="tooltip">Instagram</div>
+                <span><i class="fab fa-instagram"></i></span>
+              </a>
+              <a href="https://youtube.com" target="_blank" class="icon youtube">
+                <div class="tooltip">YouTube</div>
+                <span><i class="fab fa-youtube"></i></span>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-cols">
+            <div>
+              <h4>TokkenU</h4>
+              <div><a href="#">Quiénes somos</a></div>
+              <div><a href="#">Nuestros cursos</a></div>
+              <div><a href="#">Equipo de formación</a></div>
+              <div><a href="#">Testimonios</a></div>
+            </div>
+
+            <div>
+              <h4>Documentos</h4>
+              <div><a href="#">Política de privacidad</a></div>
+              <div><a href="#">Normatividad SST</a></div>
+              <div><a href="#">Código de Ética</a></div>
+              <div><a href="#">Resoluciones</a></div>
+            </div>
+
+            <div>
+              <h4>Contacto</h4>
+              <div>Bogotá, Colombia</div>
+              <div>+57 300 000 0000</div>
+              <div><a href="mailto:soporte@tokkenu.com.co">soporte@tokkenu.com.co</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          © 2025 TokkenU — Desarrollado por Tokken Security
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
